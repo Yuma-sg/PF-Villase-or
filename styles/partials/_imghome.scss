@@ -21,15 +21,14 @@
         font-size: 20px;
         margin: 5px;
     }
-}
-
-
-.buttons-banner-home {
+    
+    .buttons-banner-home {
     display: flex;
     justify-content: center;
     margin: 40px;
+    color: white;
 
-    .button-serv {
+       .button-serv {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -44,9 +43,9 @@
         &:hover {
             background-color: #003f0f;
         }
-    }
+       }
 
-    .button-reserv {
+       .button-reserv {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -61,5 +60,6 @@
         &:hover {
             background-color: $secondarycolor;
         }
+       }
     }
 }

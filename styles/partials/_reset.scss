@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: $fontMontserrat;
+    font-family: $mainfont;
 
     &::selection {
         background-color: black;
@@ -10,9 +10,9 @@
     }
   }
 
-  body {
+body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: white;
 }
