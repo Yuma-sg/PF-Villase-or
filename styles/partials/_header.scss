@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: black;
+
+    .logo {
+        margin-right: auto;
+    }
+
+    .nav__links {
+        list-style: none;
+        display: flex;
+
+        .nav__links, .cta, a {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            color: white;
+            text-decoration: none;
+
+            .nav__links li {
+                padding: 0px 20px;
+            }
+              
+            .nav__links li a {
+                transition: all 0.3s ease 0s;
+            }
+              
+            &:hover {
+                color: $maincolor;
+            }
+        }
+    }
+
+
+    .cta {
+        margin-left: 20px;
+        padding: 9px 25px;
+        background-color: $maincolor;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+
+        &:hover {
+            background-color: $secondarycolor;
+        }
+    }
+}
