@@ -1,6 +1,6 @@
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     padding: 30px 10%;
     background-color: black;
@@ -14,7 +14,7 @@ header {
         display: flex;
 
         .nav__links, .cta, a {
-            font-family: "Montserrat", sans-serif;
+            font-family: $mainfont;
             font-weight: 500;
             color: white;
             text-decoration: none;
