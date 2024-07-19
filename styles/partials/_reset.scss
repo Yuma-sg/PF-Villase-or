@@ -1,7 +1,7 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: $mainfont;
 
     &::selection {
@@ -12,7 +12,5 @@
 
 body {
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
     background-color: white;
 }
