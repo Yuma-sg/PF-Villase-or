@@ -50,10 +50,18 @@
 
     <main>
         <section class="container">
-            <div class=" row mt-5">
+
+          <h1 class="row mt-5 d-flex justify-content-center align-items-center">Reserva a la hora que quieras</h1>
+            <p class="row d-flex justify-content-center align-items-center">Nos pondremos en contacto</p>
+
+            <!--Puse el color de los botones aqui porque al pasar a sass no me deja hacer cambios y no entiendo por que, espero feedback y/o ayuda-->
+    <style>.btn-success {
+      background-color: #00A827;
+  }</style>
+
+            <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-md-6">
-                    <h4>Envíanos un mensaje</h4>
-                    <form>
+                    <form class="mt-5">
                        <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -71,7 +79,7 @@
                         <label for="exampleFormControlTextarea1" class="form-label">Escríbenos</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                       </div>
-                      <button type="submit" class="btn btn-env">Enviar</button>
+                      <button type="submit" class="btn btn-success">Enviar</button>
                     </form>
                 </div>
             </div>
